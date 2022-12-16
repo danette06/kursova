@@ -1,0 +1,90 @@
+  BanduraCursovaPharmacy.DistributorForm.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.EditDistributor.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.EditMedicine.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.EditOrder.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.EditPharmacy.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.MedicineForm.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.OrderForm.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.PharmacyForm.resources - Embedded, ContainedInManifestFile, 
+  BanduraCursovaPharmacy.StartForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly BanduraCursovaPharmacy, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BanduraCursovaPharmacy.EditDistributor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IfDuplicate(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.DistributorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getDistributor(): PrivateScope, Public, HideBySig
+    execute(String): PrivateScope, Public, HideBySig
+    updateTable(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.EditMedicine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    currComboBoxSet(Int32): PrivateScope, Public, HideBySig
+    getCurrComboBox(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.EditOrder: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    currComboBoxSet(Int32): PrivateScope, Public, HideBySig
+    currTextBox2Set(Int32): PrivateScope, Public, HideBySig
+    getCurrComboBox(): PrivateScope, Public, HideBySig
+    getMedicineID(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.EditPharmacy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BanduraCursovaPharmacy.MedicineForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getMedicine(): PrivateScope, Public, HideBySig
+    getSelectedDistributorIndex(): PrivateScope, Public, HideBySig
+    getQueryMedicine(String): PrivateScope, Public, HideBySig
+    getDistributorName(Int32): PrivateScope, Public, HideBySig
+    updateTable(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.OrderForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getOrder(): PrivateScope, Public, HideBySig
+    getSelectedPharmacyIndex(): PrivateScope, Public, HideBySig
+    getPharmacy(Int32): PrivateScope, Public, HideBySig
+    getMedicine(Int32): PrivateScope, Public, HideBySig
+    getPrice(Int32, Int32): PrivateScope, Public, HideBySig
+    execute(String): PrivateScope, Public, HideBySig
+    getQueryOrder(String): PrivateScope, Public, HideBySig
+    updateTable(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.PharmacyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getPharmacy(): PrivateScope, Public, HideBySig
+    execute(String): PrivateScope, Public, HideBySig
+    updateTable(): PrivateScope, Public, HideBySig
+Class BanduraCursovaPharmacy.StartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
